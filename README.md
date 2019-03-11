@@ -1,6 +1,23 @@
 # Table of contents
+<!-- TOC -->
 
-<!-- TOC -->autoauto1. [Table of contents](#table-of-contents)auto2. [Gauss - Jekyll Template](#gauss---jekyll-template)auto    1. [Acknowledgement](#acknowledgement)auto    2. [Intended users](#intended-users)auto3. [The _best_ way to use this template](#the-_best_-way-to-use-this-template)auto    1. [Preliminaries](#preliminaries)auto    2. [How to use](#how-to-use)auto        1. [Add a new post](#add-a-new-post)auto        2. [Add an image](#add-an-image)auto        3. [Math-typesetting](#math-typesetting)auto        4. [Math proof](#math-proof)auto    3. [Make your website online](#make-your-website-online)auto4. [Customize](#customize)auto5. [Development](#development)autoauto<!-- /TOC -->
+1. [Table of contents](#table-of-contents)
+2. [Gauss - Jekyll Template](#gauss---jekyll-template)auto
+    1. [Acknowledgement](#acknowledgement)
+    2. [Intended users](#intended-users)
+3. [The _best_ way to use this template](#the-_best_-way-to-use-this-template)
+    1. [Preliminaries](#preliminaries)
+    2. [How to use](#how-to-use)
+        1. [Add a new post](#add-a-new-post)
+        2. [Add an image](#add-an-image)
+        3. [Math-typesetting](#math-typesetting)
+        4. [Math proof](#math-proof)
+    3. [Make your website online](#make-your-website-online)
+4. [Customize](#customize)
+5. [Development](#development)
+6. [Copyrighted content](#copyrighted-content)
+
+<!-- /TOC -->
 
 # Gauss - Jekyll Template
 
