@@ -1,6 +1,6 @@
 # Table of contents
 
-<!-- TOC -->autoauto1. [Table of contents](#table-of-contents)auto2. [Gauss - Jekyll Template](#gauss---jekyll-template)auto    1. [Acknowledgement](#acknowledgement)auto    2. [Intended users](#intended-users)auto3. [The _best_ way to use this template](#the-_best_-way-to-use-this-template)auto    1. [Preliminaries](#preliminaries)auto    2. [How to use](#how-to-use)auto        1. [Add a new post](#add-a-new-post)auto        2. [Add an image](#add-an-image)auto        3. [Math-typesetting](#math-typesetting)auto        4. [Math proof](#math-proof)auto    3. [Make your website online](#make-your-website-online)auto4. [Customize](#customize)auto5. [Development](#development)auto6. [Copyrighted content](#copyrighted-content)autoauto<!-- /TOC -->
+<!-- TOC -->autoauto1. [Table of contents](#table-of-contents)auto2. [Gauss - Jekyll Template](#gauss---jekyll-template)auto    1. [Acknowledgement](#acknowledgement)auto    2. [Intended users](#intended-users)auto3. [The _best_ way to use this template](#the-_best_-way-to-use-this-template)auto    1. [Preliminaries](#preliminaries)auto    2. [How to use](#how-to-use)auto        1. [Add a new post](#add-a-new-post)auto        2. [Add an image](#add-an-image)auto        3. [Math-typesetting](#math-typesetting)auto        4. [Math proof](#math-proof)auto    3. [Make your website online](#make-your-website-online)auto4. [Customize](#customize)auto5. [Development](#development)autoauto<!-- /TOC -->
 
 # Gauss - Jekyll Template
 
@@ -210,4 +210,3 @@ There are a lot of features I want to add to this template, but I do not have ti
 - Comment section (**not** Disqus): I'm thinking of using some self hosted app on Heroku (which has a free plan). This app plays a role very much like Disqus: record comments from readers and load them into the blog post when requested.
 - Page view: Each post should show how many times it has been viewed. Again, I don't want to use commercial or tracking services on the site. If there is an open-source solution, please let me know.
 - Documentation: Scientists are usually not familiar with code and commands. They may be able to code in their respected fields, but setting up a website and customizing it without a graphic interface could be very painful and time-wasting. If you can contribute to make this manual clearer even for computer-illiterate, I will be very thankful!
-
