@@ -2,7 +2,7 @@
 <!-- TOC -->
 
 1. [Table of contents](#table-of-contents)
-2. [Gauss - Jekyll Template](#gauss---jekyll-template)auto
+2. [Gauss - Jekyll Template](#gauss---jekyll-template)
     1. [Acknowledgement](#acknowledgement)
     2. [Intended users](#intended-users)
 3. [The _best_ way to use this template](#the-_best_-way-to-use-this-template)
