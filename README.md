@@ -1,7 +1,6 @@
-<!--TOC-->
 # Table of contents
 
-<!--TOC-->
+<!-- TOC -->autoauto1. [Table of contents](#table-of-contents)auto2. [Gauss - Jekyll Template](#gauss---jekyll-template)auto    1. [Acknowledgement](#acknowledgement)auto    2. [Intended users](#intended-users)auto3. [The _best_ way to use this template](#the-_best_-way-to-use-this-template)auto    1. [Preliminaries](#preliminaries)auto    2. [How to use](#how-to-use)auto        1. [Add a new post](#add-a-new-post)auto        2. [Add an image](#add-an-image)auto        3. [Math-typesetting](#math-typesetting)auto        4. [Math proof](#math-proof)auto    3. [Make your website online](#make-your-website-online)auto4. [Customize](#customize)auto5. [Development](#development)auto6. [Copyrighted content](#copyrighted-content)autoauto<!-- /TOC -->
 
 # Gauss - Jekyll Template
 
@@ -161,6 +160,37 @@ paragraph 2
 
 It is worth noting how KaTeX works: Jekyll still uses MathJax when it transforms the Markdown file into an HTML file. KaTeX then looks into this file and replace MathJax's parts with its own parts. It may sound redundant, but [reality](https://www.intmath.com/cg5/katex-mathjax-comparison.php) has shown that KaTeX runs at least 10 times faster.
 
+### Math proof
+
+This is a unique feature in _Gauss_ designed specifically for Mathematicians. Whenever you write a theorem and you want to display a proof right after that, you may want it to be hidden for two reasons: the post looks cleaner and the readers can have a moment to think about the proof first. You can add the following snippet to your `markdown.json` file:
+
+```
+"Proof": {
+    "prefix": "\\proof",
+    "body": [
+        "<${1|span,h2,h3,h4,h5|} onClick=\"toggleShowHide('$3')\" class=\"toggleButton\" markdown=\"1\"> &#x25B6; Chứng minh$2</$1>",
+        "<div id=\"$3\" class=\"toggleContent\" markdown=\"1\">",
+        "$4",
+        "</div>"
+    ]
+}
+```
+
+A proof will look like this in the Markdown file:
+
+```md
+Theorem: blah blah. <span onClick="toggleShowHide('randomidcodejnfkjnk')" class="toggleButton" markdown="1"> &#x25B6; Proof</span>
+<div id="randomidcodejnfkjnk" class="toggleContent" markdown="1">
+
+$$\mathbb{R}-S=(-\infty,0)\cup\left(\bigcup_{i\in\mathbb{N}^+}(1/(i+1), 1/i)\right)\cup(1,\infty)$$
+
+is the union of open intervals, hence open. $$\Rightarrow S$$ is closed.
+
+</div>
+```
+
+Note that you must leave an empty line after the `div` tag and before the `/div` tag. The users can click on the word "Proof" to show and close the proof. By default, the proof is hidden.
+
 ## Make your website online
 
 You can learn how to create a repository on GitHub and deploy a GitHub page [here](https://pages.github.com/). Do remember to change the site name in `_config.yml` and `CNAME`. This is a free service by GitHub and your website will live on `https://username.github.io/`
@@ -181,6 +211,3 @@ There are a lot of features I want to add to this template, but I do not have ti
 - Page view: Each post should show how many times it has been viewed. Again, I don't want to use commercial or tracking services on the site. If there is an open-source solution, please let me know.
 - Documentation: Scientists are usually not familiar with code and commands. They may be able to code in their respected fields, but setting up a website and customizing it without a graphic interface could be very painful and time-wasting. If you can contribute to make this manual clearer even for computer-illiterate, I will be very thankful!
 
-# Copyrighted content
-
-All images on the blog posts, unless clearly noted, are original contents created by the author.
