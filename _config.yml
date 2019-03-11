@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Thien Hoang
+title: Gauß - Jekyll Template
 email: thienvhoang99@gmail.com
 description: Blog
-url: https://www.tvhoang.com # the base hostname & protocol for your site
+url: https://www.tvhoang.com/gauss # the base hostname & protocol for your site
 keywords: ["Programming", "Algorithm", "Mathematics"]
 
 #
@@ -54,7 +54,7 @@ owner:
   stackoverflow:
   linkedin:
   xing:
-  instagram: thelazycat__
+  instagram: iamthienhoang
   lastfm:
   tumblr:
   pinterest:
