@@ -292,3 +292,61 @@ a.read-more {
 .toggleButton {
     cursor: pointer;
 }
+
+div.highlighter-rouge {
+  margin: 10px 0;
+}
+
+div[class="highlighter-rouge"], .no-background, div.language-plaintext {
+  margin-left: 50px;
+  pre {
+    background-color: white;
+    border: 0;
+  }
+  .rouge-gutter {
+    display: none;
+  }
+}
+
+.cv-entry {
+  border: none;
+  padding: 0;
+  width: 100%;
+  .cv-entry-left {
+    text-align: left;
+    padding: 0;
+  }
+  .cv-entry-right {
+    text-align: right;
+    padding: 0;
+  }
+  .cv-entry-description {
+    padding: 0;
+    padding-top: 5px;
+    font-size: 13px;
+    text-align: justify;
+  }
+}
+pre.highlight {
+  padding: 0;
+  border: 0;
+}
+.rouge-table {
+  td {
+    padding: 0;
+    pre {
+      margin: 0;
+    }
+    .lineno {
+      border: 0;
+      background-color: transparent;
+    }
+  }
+  .rouge-gutter {
+    width: 40px;
+    background-color: white;
+  }
+  .rouge-code {
+    max-width: 0;
+  }
+}
